@@ -1,0 +1,134 @@
+.payments-container {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .payments-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .payments-table th,
+  .payments-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .payments-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .payments-table tr:hover {
+    background-color: #f9f9f9;
+  }
+
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .pagination button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .pagination button:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+  }
+
+  .modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%;
+  }
+  
+  .modal.show {
+    display: block;
+  }
+
+  .modal-form h2 {
+    font-size: 24px;
+    color: #2e4a66;
+    margin-bottom: 20px;
+  }
+  
+  .modal-form div {
+    margin-bottom: 15px;
+  }
+  
+  .modal-form label {
+    font-weight: 600;
+    color: #2e4a66;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .modal-form input,
+  .modal-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .modal-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #39447a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-form button:hover {
+    background-color: #2d3a66;
+  }
+
+  .disabled-icon {
+    pointer-events: none; /* Prevent click events */
+    opacity: 0.5; /* Make it look disabled */
+  }
+  
+  
+  

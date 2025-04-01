@@ -1,0 +1,65 @@
+.premium-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  /* Take full height of the container */
+    width: 100%;  /* Take full width */
+    padding: 20px;
+  }
+  
+  .premium-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;  /* To limit the form's width */
+  }
+  
+  .premium-form h2 {
+    font-size: 24px;
+    color: #2e4a66;
+    margin-bottom: 20px;
+  }
+  
+  .premium-form div {
+    margin-bottom: 15px;
+  }
+  
+  .premium-form label {
+    font-weight: 600;
+    color: #2e4a66;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .premium-form input,
+  .premium-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .premium-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #39447a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .premium-form button:hover {
+    background-color: #2d3a66;
+  }
+
+  .success-message {
+    color: green;
+    font-weight: bold;
+  }
+  
