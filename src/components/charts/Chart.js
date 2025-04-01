@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
-import "../../../node_modules/react-vis/dist/style.css";
-import {
-  HorizontalGridLines,
-  LineSeries,
-  VerticalGridLines,
-  XAxis,
-  XYPlot,
-  YAxis,
-} from "react-vis";
+// import "../../../node_modules/react-vis/dist/style.css";
+// import {
+//   HorizontalGridLines,
+//   LineSeries,
+//   VerticalGridLines,
+//   XAxis,
+//   XYPlot,
+//   YAxis,
+// } from "react-vis";
 const Chart = () => {
   const [data, setData] = useState([]);
 
@@ -38,13 +38,13 @@ const Chart = () => {
     <>
       {data.length > 0 && (
         <div style={{ marginTop: "15px" }}>
-          <XYPlot height={300} width={300}>
+          {/* <XYPlot height={300} width={300}>
             <VerticalGridLines />
             <HorizontalGridLines />
             <XAxis />
             <YAxis />
             <LineSeries data={data} color="green" />
-          </XYPlot>
+          </XYPlot> */}
         </div>
       )}
     </>
